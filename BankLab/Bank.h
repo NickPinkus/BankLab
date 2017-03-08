@@ -14,5 +14,11 @@ public:
 	~Bank();
 
 	string getName();
+	void CreateAccount(Account newAccount);
+	string showAccounts();
+
+	string ListAccounts();
+	void Deposit(int accountNumber, int amount);
+	void Withdraw(int accountNumber, int amount);
 };
 
